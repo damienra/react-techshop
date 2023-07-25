@@ -1,0 +1,59 @@
+.shopTitle {
+  margin-top: 100px;
+  text-align: center;
+  font-size: 40px;
+}
+
+.products {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  justify-items: center;
+}
+
+.product {
+  border-radius: 15px;
+  width: 100%;
+  height: auto; /* Adjust the height automatically based on the image's aspect ratio */
+  max-height: 480px; /* Set a maximum height to limit the product container's height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+  width: 100%;
+  height: auto; /* Allow the image to adjust its height proportionally based on width */
+  max-height: 280px; /* Set a maximum height for the image itself to avoid it being too large */
+  object-fit: contain; /* Maintain the aspect ratio and fit the entire image within the container */
+  border-radius: 15px;
+}
+
+.product .description {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.product:hover {
+  transition: 0.3s ease-in;
+  cursor: pointer;
+}
+
+.addToCartBttn {
+  background-color: transparent;
+  border: 2px solid rgb(19, 19, 19);
+  min-width: 100px;
+  padding: 5px 10px;
+  border-radius: 15px;
+  margin-top: 10px;
+}
+
+.addToCartBttn:hover {
+  background-color: rgb(19, 19, 19);
+  color: white;
+  cursor: pointer;
+}
