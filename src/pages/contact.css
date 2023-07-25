@@ -1,0 +1,45 @@
+/* contact.css */
+
+/* Styling for the contact page container */
+.contact-container {
+  margin: 20px;
+}
+
+/* Styling for the contact title */
+.contact-title {
+  font-size: 32px;
+  text-align: center;
+}
+
+/* Styling for the social media icons */
+.social-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.social-icons a {
+  color: #007bff;
+  margin: 10px;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+/* Styling for the contact information */
+.contact-info {
+  margin-top: 30px;
+  text-align: center; /* Center the contact information */
+}
+
+.contact-info p {
+  font-size: 18px;
+  margin: 5px; /* Add spacing between the contact information */
+}
+
+/* Styling for the simple map */
+.map {
+  margin-top: 30px;
+  text-align: center;
+}
+
+/* Add any other CSS styles as needed */
