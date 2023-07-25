@@ -2,10 +2,10 @@
 import product1 from "./assets/products/airpods.jpg";
 import product2 from "./assets/products/beatstudiobuds.jpg";
 import product3 from "./assets/products/blue microphone.jpg";
-import product4 from "./assets/products/jbl partybox.jpg";
-import product5 from "./assets/products/logitech 4k camera.jpg";
-import product6 from "./assets/products/lenovoyoga7.jpg";
-import product7 from "./assets/products/macbookair.jpg";
+import product4 from "./assets/products/jblpartybox.jpeg.jpg";
+import product5 from "./assets/products/logitech4k.webp";
+import product6 from "./assets/products/lenovoyoga7.webp";
+import product7 from "./assets/products/macbookprom1.jpeg.jpg";
 import product8 from "./assets/products/sony wireless headphones.jpg";
 
 //Defining an array of product objects
